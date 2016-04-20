@@ -54,3 +54,12 @@
  2016-04-17 12:30:01,976 [P12336/D2/T101] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
  2016-04-17 12:30:01,992 [P12336/D2/T101] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 22ms)
  2016-04-17 12:32:01,043 [P12336/D2/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-04-17 15:57:25,618 [P12336/D2/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-16 15:57:25
+ 2016-04-17 16:50:26,894 [P12336/D2/T226] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username endizhupani from IP address ::1
+ 2016-04-17 16:50:26,895 [P12336/D2/T226] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: endizhupani logged in from IP address ::1
+ 2016-04-17 16:50:26,954 [P12336/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-17 16:50:26,955 [P12336/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-04-17 16:57:59,946 [P12336/D2/T225] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-17 16:57:59,946 [P12336/D2/T225] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-17 17:00:18,899 [P12336/D2/T97] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-17 17:00:18,900 [P12336/D2/T97] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)

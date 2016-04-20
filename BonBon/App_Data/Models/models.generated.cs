@@ -18,7 +18,7 @@ using Umbraco.Web;
 using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
-[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.5")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -127,21 +127,12 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// text: this is some text
+		/// Main Content
 		///</summary>
 		[ImplementPropertyType("content")]
 		public Newtonsoft.Json.Linq.JToken Content
 		{
 			get { return this.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("content"); }
-		}
-
-		///<summary>
-		/// date
-		///</summary>
-		[ImplementPropertyType("date")]
-		public DateTime Date
-		{
-			get { return this.GetPropertyValue<DateTime>("date"); }
 		}
 
 		///<summary>
