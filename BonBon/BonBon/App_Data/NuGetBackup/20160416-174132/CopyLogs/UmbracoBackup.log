@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, April 16, 2016 5:41:32 PM
+   Source : C:\users\user\documents\visual studio 2015\Projects\BonBon\BonBon\Umbraco\
+     Dest : C:\users\user\documents\visual studio 2015\Projects\BonBon\BonBon\App_Data\NuGetBackup\20160416-174132\Umbraco\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\users\user\documents\visual studio 2015\Projects\BonBon\BonBon\Umbraco\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, April 16, 2016 5:41:32 PM
+
