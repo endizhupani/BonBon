@@ -45,3 +45,101 @@
  2016-04-26 20:24:02,994 [P10820/D2/T36] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
  2016-04-26 20:24:03,010 [P10820/D2/T36] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
  2016-04-26 20:26:42,589 [P10820/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-04-26 20:41:34,904 [P10820/D2/T39] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: endizhupani, IP Address: ::1
+ 2016-04-26 20:42:00,192 [P10820/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BoraBasha from IP address ::1
+ 2016-04-26 20:42:00,192 [P10820/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BoraBasha logged in from IP address ::1
+ 2016-04-26 20:42:00,214 [P10820/D2/T39] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "endizhupani", but the current user is "BoraBasha".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-04-26 20:42:38,297 [P10820/D2/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-04-26 21:01:31,824 [P10820/D2/T84] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BoraBasha, IP Address: ::1
+ 2016-04-26 21:21:59,653 [P10820/D2/T156] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username endizhupani from IP address ::1
+ 2016-04-26 21:21:59,653 [P10820/D2/T156] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: endizhupani logged in from IP address ::1
+ 2016-04-26 21:21:59,675 [P10820/D2/T156] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "BoraBasha", but the current user is "endizhupani".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-04-26 21:28:08,775 [P10820/D2/T201] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2016-04-26 21:28:08,775 [P10820/D2/T201] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-04-26 21:28:08,775 [P10820/D2/T201] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-04-26 21:35:05,521 [P10820/D2/T176] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-04-26 21:35:05,538 [P10820/D2/T176] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2016-04-26 21:42:14,786 [P10820/D2/T184] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-26 21:42:14,786 [P10820/D2/T184] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-26 21:47:21,012 [P10820/D2/T189] INFO  Umbraco.Web.Editors.AuthenticationController - User endizhupani from IP address ::1 has logged out
+ 2016-04-26 21:48:18,372 [P10820/D2/T181] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username endizhupani from IP address ::1
+ 2016-04-26 21:48:18,372 [P10820/D2/T181] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: endizhupani logged in from IP address ::1
+ 2016-04-26 21:48:18,443 [P10820/D2/T168] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-26 21:48:18,443 [P10820/D2/T168] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-26 21:49:59,251 [P10820/D2/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-26 21:49:59,251 [P10820/D2/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-26 22:06:36,774 [P10820/D2/T102] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username endizhupani from IP address ::1
+ 2016-04-26 22:06:36,774 [P10820/D2/T102] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: endizhupani logged in from IP address ::1
+ 2016-04-26 22:52:21,165 [P10820/D2/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home-default' with Id '1063' has been published.
+ 2016-04-26 22:52:25,390 [P10820/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-04-26 22:52:25,422 [P10820/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-26 22:52:38,293 [P10820/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '0' has been published.
+ 2016-04-26 22:52:42,367 [P10820/D2/T82] INFO  umbraco.content - Save Xml to file...
+ 2016-04-26 22:52:42,389 [P10820/D2/T82] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-26 22:54:27,902 [P10820/D2/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NewsTest' with Id '1140' has been published.
+ 2016-04-26 22:54:31,947 [P10820/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2016-04-26 22:54:31,964 [P10820/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-26 22:54:36,489 [P10820/D2/T97] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): A space or line break was encountered after the "@" character.  Only valid identifiers, keywords, comments, "(" and "{" are valid at the start of a code block and they must occur immediately following "@" with no space in between.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-04-26 22:56:22,401 [P10820/D2/T133] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-26 22:56:22,401 [P10820/D2/T133] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
